@@ -40,6 +40,16 @@ table {
   .button:hover {
     background-color: rgba(11, 134, 255, 0.51); }
 
+.footer_button {
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%); }
+  .footer_button i {
+    font-size: 20px;
+    opacity: .7;
+    margin-left: 5px;
+    margin-right: 5px; }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 100px;
@@ -78,6 +88,7 @@ body {
     opacity: .8; }
 
 .footer {
+  max-width: 85%;
   margin-top: 150px; }
   .footer .wrapper {
     display: flex;
@@ -95,4 +106,32 @@ body {
     .footer .wrapper ul {
       font-weight: bold;
       line-height: 1.7;
-      margin-top: -20px; }
+      margin-top: -20px;
+      text-transform: uppercase;
+      opacity: .8; }
+    .footer .wrapper .footer__contact {
+      text-transform: uppercase; }
+      .footer .wrapper .footer__contact h3 {
+        margin-bottom: 20px; }
+      .footer .wrapper .footer__contact input {
+        border: none;
+        border-bottom: 2px solid #0B83FA;
+        padding-bottom: 10px; }
+      .footer .wrapper .footer__contact-social i {
+        font-size: 20px;
+        opacity: .7; }
+      .footer .wrapper .footer__contact-social .button-group:first-child i {
+        padding-right: 20px;
+        padding-left: 20px; }
+      .footer .wrapper .footer__contact-news i {
+        font-size: 20px;
+        padding-left: 4px;
+        padding-right: 4px;
+        opacity: .7; }
+
+.copy-right {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .6;
+  margin-left: -20%; }
