@@ -79,14 +79,18 @@ body {
 
 .footer {
   margin-top: 150px; }
-  .footer h2 {
-    color: #0B83FA;
-    font-weight: bold;
-    text-align: center; }
   .footer .wrapper {
     display: flex;
     justify-content: space-between; }
-    .footer .wrapper .footer__address p {
-      margin-top: 20px; }
-    .footer .wrapper .footer__address--ua {
-      width: 250px; }
+    .footer .wrapper h2 {
+      color: #0B83FA;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 30px; }
+    .footer .wrapper p {
+      opacity: .8;
+      line-height: 1.5; }
+      .footer .wrapper p span, .footer .wrapper p a {
+        font-weight: bold; }
+    .footer .wrapper ul {
+      font-weight: bold; }

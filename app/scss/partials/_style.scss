@@ -54,51 +54,52 @@ body {
 
 .footer {
   margin-top: 150px;
-  h2 {
-    color: $border-color;
-    font-weight: bold;
-    text-align: center;
-  }
-  & .wrapper {
+    & .wrapper {
     display: flex;
     justify-content: space-between;
 
-    .footer__address {
-      //display: flex;
-      //justify-content: space-between;
-      p {
-        margin-top: 20px;
+      h2 {
+        color: $border-color;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 30px;
       }
 
-      &--ua {
-        width: 250px;
+    p {
+      opacity: .8;
+      line-height: 1.5;
+
+      span, a {
+        font-weight: bold;
+      }
+    }
+
+    ul {
+      font-weight: bold;
+      //line-height: 1.7;
+      //margin-top: -20px;
+    }
+
+
+    .footer__nav {
+
+    }
+
+    .footer__contact {
+      &-social {
+
       }
 
-      &--eu {
+      &-news {
 
-      }
-
-      .footer__nav {
-
-      }
-
-      .footer__contact {
-        &-social {
-
-        }
-
-        &-news {
-
-        }
       }
     }
   }
-
-  &__copy-right {
-
-  }
-
-  &__pagination {
-
-  }
 }
+
+.copy-right {
+
+}
+
+
+
