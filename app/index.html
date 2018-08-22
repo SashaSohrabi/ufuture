@@ -9,32 +9,32 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-<section class="header">
-    <div class="header__menu">
-        <div class="header__logo"><img src="images/header__logo.png" alt="logo" width="150" height="60"></div>
-        <nav class="header__nav">
-            <ul>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">founder</a></li>
-                <li><a href="#">our companies</a></li>
-                <li><a href="#">social investment</a></li>
-                <li><a href="#">newsroom</a></li>
-                <li><a href="#">contacts</a></li>
+<body class="page">
+<section class="header page__header ">
+    <div class="header__inner">
+        <div class="logo"><img class="logo__img" src="images/header__logo.png" alt="logo"></div>
+        <nav class="navbar navbar_inline">
+            <ul class="navbar__inner">
+                <li class="navbar__item"><a class="navbar__link" href="#">about us</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">founder</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">our companies</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">social investment</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">newsroom</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">contacts</a></li>
             </ul>
         </nav>
-        <div class="header__search">
-            <i class="fas fa-search"></i>
-            <button class="button">EN</button>
+        <div class="search">
+            <i class="search__icon fas fa-search"></i>
+            <button class="search__btn btn">EN</button>
         </div>
     </div>
-    <div class="header__bg"><img src="images/header__bg.png" alt="bg" height="100%" width="100%"></div>
-    <div class="header__slide"><i class="fas fa-angle-down"></i></div>
+    <div class="bg"><img class="bg__img" src="images/header__bg.png" alt="bg" width="100%"></div>
+    <div class="angle-down"><i class=" angle-down__inner fas fa-angle-down"></i></div>
 </section>
 
-<section class="footer">
-    <div class="wrapper">
-            <div class="footer__address footer__address--ua">
+<section class="footer page__footer">
+    <div class="footer__inner">
+            <div class="address address_ua">
                 <h2>UA</h2>
                 <p>13-15 Bolsunovska Street</p>
                 <p>IQ Business Centre</p>
@@ -42,7 +42,7 @@
                 <p>Tel/Fax: <span>+38 044 364 38 28</span></p>
                 <p>E-mail: <a href="#">click here</a></p>
             </div>
-            <div class="footer__address footer__address--eu">
+            <div class="address address_eu">
                 <h2>EU</h2>
                 <p>168 Avenue de</p>
                 <p>Cortenbergh</p>
@@ -51,37 +51,38 @@
                 <p>Fax: <span>+32 2 735 16 01</span></p>
             </div>
 
-        <div class="footer__nav">
+        <nav class="navbar">
             <h2>HOME</h2>
-            <ul>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">founder</a></li>
-                <li><a href="#">our companies</a></li>
-                <li><a href="#">social investment</a></li>
-                <li><a href="#">newsroom</a></li>
-                <li><a href="#">contacts</a></li>
+            <ul class="navbar__inner">
+                <li class="navbar__item"><a class="navbar__link" href="#">about us</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">founder</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">our companies</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">social investment</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">newsroom</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">contacts</a></li>
             </ul>
-        </div>
-        <div class="footer__contact">
-            <div class="footer__contact-social">
-                <h3>connect with us __</h3>
-               <div class="button-group">
-                   <button class="button" style="padding-left: 13px; padding-right: 13px"><i class="fab fa-facebook-f"></i></button>
-                   <button class="button"><i class="fab fa-linkedin-in"></i></button>
-                   <button class="button"><i class="fab fa-youtube-square"></i></button>
+        </nav>
+        <div class="connection">
+            <div class="connection__social-media">
+                <h3>connect with us -</h3>
+               <div class="btn-group">
+                   <button class="btn"><i class="btn__inner fab fa-facebook-f"></i></button>
+                   <button class="btn"><i class="btn__inner fab fa-linkedin-in"></i></button>
+                   <button class="btn"><i class="btn__inner fab fa-youtube-square"></i></button>
                </div>
             </div>
-            <div class="footer__contact-news">
-                <h3>subscribe to news __</h3>
-                <input type="text" placeholder="e-mail">
-                <button class="button"><i class="fas fa-angle-right"></i></button>
+            <div class="connection__subscription">
+                <h3>subscribe to news -</h3>
+                <input class="subscription__input" type="text" placeholder="e-mail">
+                <button class="subscription__btn btn"><i class="btn__inner fas fa-angle-right"></i></button>
             </div>
         </div>
     </div>
 </section>
-<button class="button footer_button"><i class="fas fa-angle-up"></i></button>
+
 <div class="copy-right">
-    <p>copyright 2017 all rights reserved - ufuture investment group</p>
+    <button class="copy-right__btn btn"><i class="btn__inner fas fa-angle-up"></i></button>
+    <p class="copy-right__text">copyright 2017 all rights reserved - ufuture investment group</p>
 </div>
 </body>
 </html>

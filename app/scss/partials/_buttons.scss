@@ -1,9 +1,9 @@
 
-.button {
+.btn {
   background-color: transparent;
   border: 2px solid $border-color;
   padding: 10px;
-  margin-left: 10px;
+  width: 50px;
   transition: background-color .3s;
 
   &:hover {
@@ -11,15 +11,18 @@
   }
 }
 
-.footer_button {
-  i {
-    font-size: 20px;
-    opacity: .7;
-    margin-left: 5px;
-    margin-right: 5px;
+.btn-group{
+  display: flex;
+  justify-content: center;
+
+  & button:not(:last-child) {
+    border-right: none;
   }
-  position: relative;
-  left: 100%;
-  transform: translateX(-100%);
+
+  .btn__inner {
+    font-size: 16px;
+    opacity: .7;
+  }
 }
+
 
