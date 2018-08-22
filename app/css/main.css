@@ -117,12 +117,14 @@ body {
         border: none;
         border-bottom: 2px solid #0B83FA;
         padding-bottom: 10px; }
-      .footer .wrapper .footer__contact-social i {
-        font-size: 20px;
-        opacity: .7; }
-      .footer .wrapper .footer__contact-social .button-group:first-child i {
-        padding-right: 20px;
-        padding-left: 20px; }
+      .footer .wrapper .footer__contact-social {
+        margin-bottom: 20px; }
+        .footer .wrapper .footer__contact-social i {
+          font-size: 20px;
+          opacity: .7; }
+        .footer .wrapper .footer__contact-social .button-group:first-child i {
+          padding-right: 20px;
+          padding-left: 20px; }
       .footer .wrapper .footer__contact-news i {
         font-size: 20px;
         padding-left: 4px;
